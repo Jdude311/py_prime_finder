@@ -3,7 +3,7 @@ print("Hello World!")
 print("This is the prime number checker!")
 
 start_number = input("What number would you like to start at? (It has to be greater than 0)  ")
-end_number = input("What number would you like to end at? ")
+end_number = float(input("What number would you like to end at? "))
 counter = float(start_number)
 
 def is_divisible(dividend, divisor):
