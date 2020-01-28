@@ -45,3 +45,4 @@ for prime in primes:
   print(prime)
 
 input("Press enter to continue." )
+sleep(300)
