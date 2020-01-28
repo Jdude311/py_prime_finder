@@ -1,6 +1,6 @@
 from math import sqrt
-print "Hello World!"
-print "This is the prime number checker!"
+print("Hello World!")
+print("This is the prime number checker!")
 
 start_number = input("What number would you like to start at? (It has to be greater than 0)  ")
 end_number = input("What number would you like to end at? ")
@@ -43,3 +43,5 @@ while counter <= end_number:
 
 for prime in primes:
   print(prime)
+
+input("Press enter to continue." )
