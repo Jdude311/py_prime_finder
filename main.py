@@ -17,7 +17,7 @@ def is_divisible(dividend, divisor):
 primes = []
 
 while counter <= end_number:
-  top = sqrt(counter)
+  top = sqrt(float(counter))
   #print top
 
   i = 2
